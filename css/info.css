@@ -1,0 +1,26 @@
+.preguntas{
+	font-weight: bold;
+	text-align: center;
+	padding: 1%;
+}
+
+.fondo{
+	height: 250px;
+	background-size: 100%;
+	background-position: cover;
+	background-repeat: no-repeat;
+}
+.trabajador{
+	background-image: url("../img/alicorp.jpg");
+
+}
+.familia{
+	background-image: url("../img/familia.jpg");
+	
+}
+@media (max-width: 600px) {
+	.fondo{
+	height: 150px;
+	margin-top: 5%;
+}
+}
