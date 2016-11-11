@@ -1,8 +1,9 @@
 .cuadrado{
-	padding: 2% 5%;
+	background-position: center;
 	margin: 2% 4% !important;
-	border-radius: 30px;
-}
+	padding: 5%;
+	word-wrap: break-word;
+		}
 #enviar{
 	margin-bottom: 1%;
 }

@@ -39,17 +39,16 @@ $("#enviar").click(imprimir);
 			alert("Todos los campos son obligatorios.");	
 		}
 		else{
-			var cuadro = $("<div></div>").addClass("cuadrado z-depth-2 green col l3");
+			var cuadro = $("<div></div>").addClass("cuadrado z-depth-2 col l3 container");
 			$("#listaTareas").prepend(cuadro);
 
-			var texto = $("<p></p>").text(textArea).addClass("col l12 s12");
+			var texto = $("<p></p>").text(textArea).addClass("col l12 s12 center-align");
 			cuadro.prepend(texto);
-
 			
-			var datos = $("<p></p>").text(nombre).addClass("col l9 s8 right-align");
+			var datos = $("<p></p>").text(nombre).addClass("col l9 s7 center-align");
 			cuadro.append(datos);
 
-			var datosDni = $("<p></p>").text(dni).addClass("col l3 s4 right-align");
+			var datosDni = $("<p></p>").text(dni).addClass("col l3 s5 center-align");
 			cuadro.append(datosDni);
 
 			var f = new Date();
