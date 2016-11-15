@@ -1,10 +1,10 @@
 .bloqueInicial{
 	padding: 8% 20%;
-	
+	margin-top: 5%;
 }
 .transparencia{
 	background-color: rgba(255,0,0,0.4);
-	padding: 2%;
+	padding: 1%;
 }
 .bg-home{
 	background-position: cover;
@@ -13,6 +13,9 @@
 	background-size: 100%;
 	height: 100vh;
 }
+.btn-concurso{
+		margin-bottom: 2%;
+	}
 @media (max-width: 800px) {
 
   .bg-home{
@@ -20,7 +23,7 @@
 	background-image: url("../img/espalda.jpg");
 	}
 	.bloqueInicial{
-	padding: 87% 5% 0 5%;
+	padding: 84% 5% 0 5%;
 	margin-top: 5%;
 	}
 }
@@ -32,6 +35,6 @@
 		font-size: 1.3em !important;
 	}
 	.btn-concurso{
-		margin-bottom: 10%;
+		margin-bottom: 6%;
 	}
 }

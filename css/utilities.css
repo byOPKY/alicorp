@@ -26,8 +26,8 @@
 	font-size: 18px;
 }
 .img-max{
-	max-width: 100%;
 	display: none;
+	max-width: 100%;
 }
 .border{
 	border: 1px solid gray;
